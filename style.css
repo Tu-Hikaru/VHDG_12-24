@@ -105,7 +105,7 @@ img.banner{
 }
 .introduction{
     height: 700px;
-    background:linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.2),transparent),url("Images/00.jpg");
+    background:linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.2),transparent),url("Images/00.JPG");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -327,4 +327,5 @@ footer {
     font-size: 13px;
     line-height: 0.5;
     margin-top: 40px;
+
 }
