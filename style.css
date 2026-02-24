@@ -281,8 +281,10 @@ img.ht {
     display: flex;
     justify-content: center;
     background-color: #fbc193;
-    padding: 30px 30px;
-    margin: 50px 300px;
+    padding:30px;
+    margin: 50px auto;   
+    width: 50%;         
+    max-width: 1000px; 
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     color: grey;
@@ -330,4 +332,5 @@ footer {
     margin-top: 40px;
 
 }
+
 
