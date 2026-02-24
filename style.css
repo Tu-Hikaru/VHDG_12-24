@@ -114,6 +114,7 @@ img.banner{
 .introduction p{
     color: white;
     margin-top: 40px;
+    text-align: justify;
     width: 25%;
     padding: 40px;
     line-height: 1.5;
@@ -329,3 +330,4 @@ footer {
     margin-top: 40px;
 
 }
+
