@@ -1,0 +1,330 @@
+body.content_body {
+    background-color: #fff9db;
+    font-size: 20px;
+
+}
+body.index_body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("Images/background_index.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+/*css trang chủ*/
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: #FF3131;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Paytone One', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    color:#c44536;
+}
+h1:first-of-type {
+    margin-top: 100px;
+}
+
+
+
+.btn-start {
+    display: block;
+    margin: 50px auto;
+    background-color: rgb(255,140,0); 
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; 
+}
+.btn-start a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Comfortaa", cursive;
+}
+
+.btn-start:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 20px rgba(153, 0, 0, 1.0);
+    background-color: #e64900; 
+}
+
+/*css thanh menu*/
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;          
+    padding: 10px 10px;
+}
+
+a i {
+    color: #00ed04;
+    font-size: 40px; 
+    transition: 0.3s; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+a i:hover {
+    color: #ff4500;
+}
+
+.menu-right {
+    display: flex;
+    gap: 70px; 
+    margin-right: 70px;
+    font-size: 1.3em;
+}
+.menu-right a {
+    text-decoration: none;
+    color: #00ed04;
+    font-family: 'Paytone One', sans-serif;
+    transition: 0.3s; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.menu-right a:hover {
+    color: #ff4500;
+}
+
+/*css nội dung chính*/
+img.banner{
+    display: block;
+    margin: 0 auto;
+}
+.introduction{
+    height: 700px;
+    background:linear-gradient(to right,rgba(0,0,0,0.5), rgba(0,0,0,0.2),transparent),url("Images/00.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: left;
+}
+.introduction p{
+    color: white;
+    margin-top: 40px;
+    width: 25%;
+    padding: 40px;
+    line-height: 1.5;
+}
+p.menu{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 50px 70px;
+}
+img.img01{
+  display: block;
+  margin: 0 auto;
+}
+.card {
+    display: flex;
+    align-items: center;
+    background-color:#7F0208; 
+    padding: 10px;
+    margin: 30px 50px;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.card-text {
+    flex: 1;
+    color: white;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 20px;}
+
+
+.section {
+    margin-top: 40px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid img {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+
+}
+
+.split-section {
+  display: flex;         
+  align-items: center;    
+  gap: 50px;              
+  padding: 60px;          
+}
+
+.text-side {
+  flex: 1;                
+}
+
+.text-side p {    
+  line-height: 1.6;       
+  text-align: justify;  
+  margin: 0;
+}
+
+.image-side {
+  flex: 1;               
+}
+
+.image-side img {
+  width: 100%;            
+  height: auto;
+  border-radius: 8px;     
+  display: block;
+}
+
+
+.section-container {
+  display: flex;
+  align-items: center;
+  gap: 60px; 
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.section h2{
+    color: black;
+    margin: 40px 0;
+}
+
+.image-wrapper {
+  flex: 1;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #333; 
+}
+
+.text-wrapper {
+  flex: 1.2; 
+}
+
+.text-wrapper p {
+  line-height: 1.8;
+  text-align: justify; 
+  text-align-last: right; 
+  margin: 0;
+}
+
+img.ht {
+    display: block;
+    margin: 40px auto;
+    height: 300px;
+    width: 600px;
+}
+
+.image-grid_ht {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.image-grid_ht img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-evenly;
+}
+      
+.fb_text {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    text-align: justify;
+}
+.feedback i {
+    color: #003bba;
+    font-size: 40px; 
+    display: flex;
+    justify-content: center; 
+    margin: 10px 0;
+}
+
+/*css form*/
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #fbc193;
+    padding: 30px 30px;
+    margin: 50px 300px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: 600;
+    line-height: 1.5;
+    height: 500px;
+}
+
+textarea {
+    width: 600px;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none; 
+    background-color: #f28076;
+
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.submit button {
+    background-color: #fee686;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Paytone One', sans-serif;
+    cursor: pointer;
+}
+.submit button:hover {
+    background-color: #f28076;
+    color: white;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    line-height: 0.5;
+    margin-top: 40px;
+}
